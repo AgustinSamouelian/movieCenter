@@ -4,7 +4,8 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom right, lightblue, black);
+    background-image: linear-gradient(to bottom right, rgb(4, 5, 5), rgb(67, 74, 77), rgb(0, 0, 0));
+
 }
 
 @media screen and (max-width: 768px) {
@@ -139,6 +140,7 @@
 }
 
 .boton__Header {
+
     background-image: linear-gradient(to right, lightblue, grey);
     margin-left: 15px;
     margin-top: 15px;
@@ -205,34 +207,30 @@
 
 
 .aside {
+    margin-top: 70px;
     grid-area: aside;
     border-radius: 10px;
     border: 2px solid;
-    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/Spotify-logotipo.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     height: 100px;
-
-
+    background: red;
+    animation: slide 5s infinite;
 }
 
+@keyframes slide {
+    from {
+        background-color: red;
+    }
 
+    to {
+        background-color: blue;
+    }
 
-
-.h1Index {
-    padding-bottom: 10px;
-    padding-left: 20px;
 }
-
-
 
 
 
 .gratuito {
+    margin-top: 70px;
     grid-area: peliculas;
     display: flex;
     flex-direction: row;
@@ -244,7 +242,7 @@
 
 .artPeliculas {
     block-size: 400px;
-    background-color: rgb(61, 153, 207);
+    background-color: rgb(209, 86, 86);
     border-radius: 10px;
     border-color: black;
     border: 1px solid;
@@ -262,7 +260,7 @@
 
 .artSeries {
     block-size: 400px;
-    background-color: rgb(61, 153, 207);
+    background-color: rgb(209, 86, 86);
     border-radius: 10px;
     border-color: black;
     border: 1px solid;
@@ -281,7 +279,7 @@
 
 .artAnime {
     block-size: 400px;
-    background-color: rgb(61, 153, 207);
+    background-color: rgb(209, 86, 86);
     border-radius: 10px;
     border-color: black;
     border: 1px solid;
@@ -314,19 +312,21 @@
 
 .contenidoPago {
     width: 500px;
-    background-color: rgb(161, 68, 146);
+    background-image: linear-gradient(to left, rgb(77, 72, 67), rgb(224, 63, 63));
     border-radius: 15px;
     border: 2px solid;
     padding: 16px;
 }
 
 .suscripciones {
-
+    margin-bottom: 40px;
+    margin-top: 60px;
     grid-area: suscripcion;
     opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .h1Suscripciones {
@@ -406,8 +406,13 @@ td {
 }
 
 .bloqueFooter {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
     grid-area: footer;
-    background-color: rgb(61, 153, 207);
+    background-color: rgb(224, 63, 63);
     opacity: 0.7;
     border-radius: 10px;
     border-color: black;
@@ -417,6 +422,8 @@ td {
 
 
 .botones {
+    padding-bottom: 5px;
+    margin-left: 5px;
     margin-top: 20px;
 }
 
