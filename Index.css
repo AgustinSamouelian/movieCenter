@@ -1,0 +1,433 @@
+.index {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, lightblue, black);
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-row-gap: 2vh;
+        grid-template-columns: 11vw 1fr 0vw;
+        grid-column-gap: 14vw;
+
+    }
+
+    .encabezado {
+        height: 7vh;
+    }
+
+    .header__Logo {
+        padding-right: 2vw;
+    }
+
+    .boton__Header {
+        margin-left: 1vw;
+        margin-top: 1vh;
+        width: 3vw;
+        height: 4vh;
+    }
+
+    .boton__Header:hover {
+        width: 5.5vw;
+
+    }
+
+    .logo__Header {
+        height: 4vh;
+        width: 3vw;
+    }
+
+    .contenedor {
+        width: 11vw;
+    }
+
+    .h1Index {
+        padding-bottom: 1vh;
+        padding-left: 1vw;
+    }
+
+    .artPeliculas {
+        block-size: 22vw;
+    }
+
+    .imagenPeliculas {
+        height: 20vh;
+        width: 12vw;
+    }
+
+    .artSeries {
+        block-size: 22vw;
+    }
+
+    .imagenSeries {
+        height: 20vh;
+        width: 12vw;
+
+    }
+
+    .artAnime {
+        block-size: 22vw;
+    }
+
+    .imagenAnime {
+        height: 20vh;
+        width: 12vw;
+    }
+
+    th,
+    table,
+    td {
+
+        height: 5vh;
+        width: 32vw;
+        border-collapse: collapse;
+        font-size: 20px;
+
+    }
+
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav peliculas ."
+        "nav aside ."
+        "nav suscripcion ."
+        "footer footer footer";
+    grid-row-gap: 24px;
+    grid-template-columns: 200px 1fr 0px;
+    grid-column-gap: 256px;
+
+}
+
+
+
+.encabezado {
+    grid-area: header;
+    opacity: 0.8;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+}
+
+
+
+
+.header__Logo {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.headerBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.boton__Header {
+    background-image: linear-gradient(to right, lightblue, grey);
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: rgb(61, 153, 207);
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 50px;
+    transition: 1s;
+}
+
+.boton__Header:hover {
+    width: 100px;
+
+}
+
+.logo__Header {
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+
+
+.link__Header {
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+
+}
+
+.contenedor {
+    width: 200px;
+    grid-area: nav;
+    opacity: 0.8;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+
+.listaMenu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lista {
+    background-image: linear-gradient(to right, lightblue, grey);
+    background-color: rgb(139, 201, 227);
+    width: 150%;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
+.aside {
+    grid-area: aside;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/Spotify-logotipo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+
+
+}
+
+
+
+
+.h1Index {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+
+
+
+.gratuito {
+    grid-area: peliculas;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+.artPeliculas {
+    block-size: 400px;
+    background-color: rgb(61, 153, 207);
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid;
+    border-width: 2px;
+}
+
+.imagenPeliculas {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    height: 200px;
+    width: 220px;
+}
+
+
+.artSeries {
+    block-size: 400px;
+    background-color: rgb(61, 153, 207);
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid;
+    border-width: 2px;
+}
+
+
+.imagenSeries {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 200px;
+    width: 220px;
+}
+
+
+.artAnime {
+    block-size: 400px;
+    background-color: rgb(61, 153, 207);
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid;
+    border-width: 2px;
+}
+
+.imagenAnime {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 200px;
+    width: 220px;
+}
+
+
+.h2Etiqueta {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.pDescripcion {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15 px;
+    font-weight: bold;
+}
+
+
+
+.contenidoPago {
+    width: 500px;
+    background-color: rgb(161, 68, 146);
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 16px;
+}
+
+.suscripciones {
+
+    grid-area: suscripcion;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Suscripciones {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.pContenidoPago {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+th,
+table,
+td {
+    background-color: rgb(61, 153, 207);
+    margin-top: 80px;
+    border-color: black;
+    border: 3px solid;
+    height: 80px;
+    width: 500px;
+    border-collapse: collapse;
+    font-size: 20px;
+
+}
+
+.linkTable {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: wheat;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .6s ease-in-out;
+}
+
+.linkTable:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+
+.linkToContent {
+    padding-left: 75px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: wheat;
+    transition: transform 2s;
+}
+
+
+
+.pContenidoPago {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.listaAnime {
+    font-size: 20px;
+    list-style-type: none;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.imagenFooter {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 5px;
+    margin-right: 10px;
+}
+
+.bloqueFooter {
+    grid-area: footer;
+    background-color: rgb(61, 153, 207);
+    opacity: 0.7;
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid;
+
+}
+
+
+.botones {
+    margin-top: 20px;
+}
+
+.botonSocial {
+    border-radius: 5px;
+}
+
+.firstFoot {
+    padding-top: 20px;
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+
+}
