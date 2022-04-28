@@ -45,10 +45,6 @@
         width: 11vw;
     }
 
-    .h1Index {
-        padding-bottom: 1vh;
-        padding-left: 1vw;
-    }
 
     .artPeliculas {
         block-size: 22vw;
@@ -238,9 +234,11 @@
 }
 
 
+.headerBoton {
+    padding-left: 20px;
+}
 
-
-.artPeliculas {
+.artEnt {
     block-size: 400px;
     background-color: rgb(209, 86, 86);
     border-radius: 10px;
@@ -249,46 +247,9 @@
     border-width: 2px;
 }
 
-.imagenPeliculas {
+.imagenEnt {
     padding-top: 10px;
     padding-left: 25px;
-    padding-right: 15px;
-    height: 200px;
-    width: 220px;
-}
-
-
-.artSeries {
-    block-size: 400px;
-    background-color: rgb(209, 86, 86);
-    border-radius: 10px;
-    border-color: black;
-    border: 1px solid;
-    border-width: 2px;
-}
-
-
-.imagenSeries {
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 200px;
-    width: 220px;
-}
-
-
-.artAnime {
-    block-size: 400px;
-    background-color: rgb(209, 86, 86);
-    border-radius: 10px;
-    border-color: black;
-    border: 1px solid;
-    border-width: 2px;
-}
-
-.imagenAnime {
-    padding-top: 10px;
-    padding-left: 15px;
     padding-right: 15px;
     height: 200px;
     width: 220px;
@@ -378,6 +339,10 @@ td {
     transition: transform 2s;
 }
 
+.linkToContent:hover {
+    color: rgb(129, 165, 249);
+    text-decoration: none;
+}
 
 
 .pContenidoPago {
@@ -420,15 +385,8 @@ td {
 
 }
 
-
-.botones {
-    padding-bottom: 5px;
-    margin-left: 5px;
-    margin-top: 20px;
-}
-
-.botonSocial {
-    border-radius: 5px;
+.listaFooter {
+    list-style-type: none;
 }
 
 .firstFoot {
