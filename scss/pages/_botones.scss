@@ -1,0 +1,34 @@
+.boton__ingreso {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: 1s;
+
+    &.boton__ingreso:hover {
+
+        width: 100px;
+        color: wheat;
+
+    }
+
+}
+
+
+.linkTable {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: wheat;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .6s ease-in-out;
+
+
+    &.linkTable:hover {
+        box-shadow: inset 100px 0 0 0 #54b3d6;
+        color: white;
+    }
+}

@@ -50,22 +50,6 @@
 }
 
 
-.boton__ingreso {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    transition: 1s;
-}
-
-.boton__ingreso:hover {
-
-    width: 100px;
-    color: wheat;
-}
 
 
 
