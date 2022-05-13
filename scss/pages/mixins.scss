@@ -1,0 +1,16 @@
+@mixin dimensiones ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+
+@mixin backcolor ($bcolor) {
+    @if $bcolor==colorwheat {
+        background-color: wheat;
+
+    }
+
+    @else if $bcolor==lightb {
+        background-color: rgb(61, 153, 207);
+    }
+}

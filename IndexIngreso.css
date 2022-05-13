@@ -59,7 +59,6 @@
     margin-right: 10px;
     border-radius: 10px;
     height: 60px;
-    background-color: rgb(61, 153, 207);
     opacity: 0.7;
     border-color: black;
     border: 1px solid;
@@ -110,15 +109,16 @@
 
 
 .bloqueFooter {
-    background-color: rgb(61, 153, 207);
-    opacity: 0.7;
-    display: inline-block;
+    display: flex;
+    width: 100%;
     height: 100px;
-    width: 200px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    grid-area: footer;
+    background-color: rgb(224, 63, 63);
+    opacity: 0.7;
     border-radius: 10px;
     border-color: black;
     border: 1px solid;
-    margin-top: 50px;
+
 }

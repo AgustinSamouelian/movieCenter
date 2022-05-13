@@ -108,7 +108,6 @@
 .encabezado {
     grid-area: header;
     opacity: 0.8;
-    background-color: wheat;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -261,12 +260,6 @@
     font-family: 'Lobster', cursive;
 }
 
-.pDescripcion {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15 px;
-    font-weight: bold;
-}
 
 
 
@@ -295,21 +288,14 @@
     font-family: 'Lobster', cursive;
 }
 
-.pContenidoPago {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
 
 
 th,
 table,
 td {
-    background-color: rgb(61, 153, 207);
     margin-top: 80px;
     border-color: black;
     border: 3px solid;
-    height: 80px;
-    width: 500px;
     border-collapse: collapse;
     font-size: 20px;
 

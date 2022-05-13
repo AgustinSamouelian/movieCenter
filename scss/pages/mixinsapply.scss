@@ -1,0 +1,34 @@
+.encabezado {
+    @include backcolor (colorwheat)
+}
+
+th,
+table,
+td {
+    @include dimensiones(500px, 80px);
+    @include backcolor(lightb);
+}
+
+.menuInicio {
+    @include backcolor (colorwheat)
+}
+
+.pContenidoPago {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pDescripcion {
+    @extend .pContenidoPago;
+    text-align: center;
+    font-size: 15 px;
+}
+
+$buttons: ("celeste":lightblue, "rojo":red, "gris":grey);
+
+@each $nombre,
+$color in $buttons {
+    .btn-#{$nombre} {
+        background-color: $color;
+    }
+}

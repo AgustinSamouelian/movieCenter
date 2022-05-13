@@ -24,3 +24,33 @@
 
 .artEnt {
   background-color: #d15656; }
+
+.encabezado {
+  background-color: wheat; }
+
+th,
+table,
+td {
+  height: 80px;
+  width: 500px;
+  background-color: #3d99cf; }
+
+.menuInicio {
+  background-color: wheat; }
+
+.pContenidoPago, .pDescripcion {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; }
+
+.pDescripcion {
+  text-align: center;
+  font-size: 15 px; }
+
+.btn-celeste {
+  background-color: lightblue; }
+
+.btn-rojo {
+  background-color: red; }
+
+.btn-gris {
+  background-color: grey; }
