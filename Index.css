@@ -95,7 +95,7 @@
         "header header header"
         "nav peliculas ."
         "nav aside ."
-        "nav suscripcion ."
+        ". suscripcion ."
         "footer footer footer";
     grid-row-gap: 24px;
     grid-template-columns: 200px 1fr 0px;
@@ -172,6 +172,7 @@
 }
 
 .contenedor {
+    height: 900px;
     width: 200px;
     grid-area: nav;
     opacity: 0.8;
@@ -229,7 +230,7 @@
     grid-area: peliculas;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -286,6 +287,7 @@
     text-decoration: underline;
     font-size: 40px;
     font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 
@@ -307,8 +309,17 @@ td {
     text-decoration: none;
     text-transform: uppercase;
     color: wheat;
-    transition: transform 2s;
+    text-align: center;
+
 }
+
+.linkToContent:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+
+
 
 .linkToContent:hover {
     color: rgb(129, 165, 249);
