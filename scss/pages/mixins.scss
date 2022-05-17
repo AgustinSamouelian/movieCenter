@@ -10,7 +10,7 @@
 
     }
 
-    @else if $bcolor==lightb {
-        background-color: rgb(61, 153, 207);
+    @else if $bcolor==colorCards {
+        background-color: $colorCards;
     }
 }

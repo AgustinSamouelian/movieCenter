@@ -6,7 +6,7 @@ th,
 table,
 td {
     @include dimensiones(500px, 80px);
-    @include backcolor(lightb);
+    @include backcolor(colorwheat);
 }
 
 .menuInicio {

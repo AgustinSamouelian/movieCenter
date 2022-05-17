@@ -97,9 +97,9 @@
         "nav aside ."
         ". suscripcion ."
         "footer footer footer";
-    grid-row-gap: 24px;
+    grid-row-gap: 10px;
     grid-template-columns: 200px 1fr 0px;
-    grid-column-gap: 256px;
+    grid-column-gap: 220px;
 
 }
 
@@ -136,10 +136,10 @@
 
 .boton__Header {
 
-    background-image: linear-gradient(to right, lightblue, grey);
+
     margin-left: 15px;
     margin-top: 15px;
-    background-color: rgb(61, 153, 207);
+    background-color: rgb(209, 86, 86);
     border-radius: 10px;
     border-radius: 10px;
     width: 60px;
@@ -148,7 +148,7 @@
 }
 
 .boton__Header:hover {
-    width: 100px;
+    transform: scale(1.1);
 
 }
 
@@ -167,11 +167,11 @@
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-    color: black;
-
+    color: white
 }
 
 .contenedor {
+    margin-top: 60px;
     height: 900px;
     width: 200px;
     grid-area: nav;
@@ -188,40 +188,71 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
 }
 
 .lista {
-    background-image: linear-gradient(to right, lightblue, grey);
-    background-color: rgb(139, 201, 227);
-    width: 150%;
-    border: 1px solid;
+    width: 120%;
+    border: 2px solid;
     border-radius: 5px;
-    text-align: center;
+    transition: all .2s ease-in-out;
+}
 
+.lista:hover {
+    transform: scale(1.1);
 }
 
 
-
 .aside {
-    margin-top: 70px;
+    rotate: (180deg);
     grid-area: aside;
     border-radius: 10px;
     border: 2px solid;
     height: 100px;
     background: red;
     animation: slide 5s infinite;
-}
-
-@keyframes slide {
-    from {
-        background-color: red;
-    }
-
-    to {
-        background-color: blue;
-    }
+    background-image: url(Imagenes/Spotify-Advertising.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    animation: aside 10s infinite;
+    animation-direction: alternate;
 
 }
+
+
+@keyframes aside {
+
+    0%,
+    30% {
+        background-image: url(imagenes/Spotify-Advertising.png);
+        opacity: 1;
+    }
+
+    31%,
+    34% {
+        opacity: 0.1;
+    }
+
+    35%,
+    65% {
+        background-image: url(imagenes/spotify.jpg);
+        opacity: 1;
+    }
+
+    66%,
+    69% {
+        opacity: 0.1;
+    }
+
+    70%,
+    100% {
+        background-image: url(imagenes/Series.jpg);
+        opacity: 1;
+    }
+
+}
+
+
 
 
 
@@ -247,6 +278,7 @@
 }
 
 .imagenEnt {
+
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 15px;
@@ -265,7 +297,8 @@
 
 
 .contenidoPago {
-    width: 500px;
+
+    width: 700px;
     background-image: linear-gradient(to left, rgb(77, 72, 67), rgb(224, 63, 63));
     border-radius: 15px;
     border: 2px solid;
@@ -273,13 +306,12 @@
 }
 
 .suscripciones {
-    margin-bottom: 40px;
-    margin-top: 60px;
     grid-area: suscripcion;
     opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -295,8 +327,9 @@
 th,
 table,
 td {
+    margin-left: 100px;
     margin-top: 80px;
-    border-color: black;
+    border-color: rgb(50, 136, 149);
     border: 3px solid;
     border-collapse: collapse;
     font-size: 20px;
@@ -305,19 +338,15 @@ td {
 
 
 .linkToContent {
+
     padding-left: 75px;
     text-decoration: none;
     text-transform: uppercase;
     color: wheat;
     text-align: center;
+    transition: all .4s ease-in-out;
 
 }
-
-.linkToContent:hover {
-    box-shadow: inset 100px 0 0 0 #54b3d6;
-    color: white;
-}
-
 
 
 
@@ -356,7 +385,7 @@ td {
     display: flex;
     width: 100%;
     height: 100px;
-    position: fixed;
+
     bottom: 0;
     grid-area: footer;
     background-color: rgb(224, 63, 63);
