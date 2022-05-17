@@ -1,9 +1,5 @@
 .index {
     position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-image: linear-gradient(to bottom right, rgb(4, 5, 5), rgb(67, 74, 77), rgb(0, 0, 0));
 
 }
@@ -88,7 +84,6 @@
 
 }
 
-
 .grid {
     display: grid;
     grid-template-areas:
@@ -98,6 +93,7 @@
         ". suscripcion ."
         "footer footer footer";
     grid-row-gap: 10px;
+    grid-template-rows: 1fr;
     grid-template-columns: 200px 1fr 0px;
     grid-column-gap: 220px;
 
@@ -106,17 +102,19 @@
 
 
 .encabezado {
+    background-color: gray;
     grid-area: header;
-    opacity: 0.8;
+    opacity: 1;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 90px;
     border-radius: 15px;
-}
+    border-color: wheat;
 
+}
 
 
 
@@ -129,9 +127,14 @@
 }
 
 .headerBoton {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.header__span {
+    color: rgb(209, 86, 86);
 }
 
 .boton__Header {
@@ -180,6 +183,7 @@
     display: flex;
     flex-direction: row;
     border-radius: 10px;
+
 }
 
 
@@ -192,9 +196,11 @@
 }
 
 .lista {
+    height: 36px;
+    margin-left: 15px;
     width: 120%;
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all .2s ease-in-out;
 }
 
@@ -406,4 +412,22 @@ td {
     color: wheat;
     text-decoration: none;
 
+}
+
+
+
+.accion {
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgb(179, 165, 165);
+}
+
+.hCategoria {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.divSecciones {
+    background-color: rgb(224, 63, 63);
 }

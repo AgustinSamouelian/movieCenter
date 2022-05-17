@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 110px;
     font-family: 'Abril Fatface', cursive;
-    color: wheat
+    color: white
 }
 
 
@@ -53,16 +53,6 @@
 
 
 
-.menuInicio {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    height: 60px;
-    opacity: 0.7;
-    border-color: black;
-    border: 1px solid;
-}
 
 
 #menuLeft {
