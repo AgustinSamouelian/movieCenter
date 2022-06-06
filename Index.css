@@ -304,8 +304,8 @@
 .contenidoPago {
 
     width: 700px;
-    background-image: linear-gradient(to left, rgb(77, 72, 67), rgb(224, 63, 63));
-    border-radius: 15px;
+    background-color: rgb(209, 86, 86);
+    border-radius: 10px;
     border: 2px solid;
     padding: 16px;
 }
