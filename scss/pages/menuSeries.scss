@@ -1,0 +1,502 @@
+.menuAccion {
+
+    display: flex;
+    justify-items: space-evenly;
+    padding: 5px;
+    gap: 25px;
+    border-radius: 5px;
+    margin-top: 60px;
+    height: 540px;
+    background-color: rgb(36, 31, 31);
+}
+
+.menuComedia {
+    @extend .menuAccion;
+}
+
+.menuCienciaFiccion {
+    @extend .menuAccion;
+}
+
+.img43 {
+    @extend .img1;
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/04/24/15877614158252.jpg);
+
+}
+
+.img44 {
+    @extend .img2;
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/04/24/15877614158252.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img45 {
+    @extend .img1;
+    background-image: url(https://i.pinimg.com/736x/47/e3/73/47e3735919718096b3ae4886486b65c0.jpg);
+
+}
+
+.img46 {
+    @extend .img2;
+    background-image: url(https://i.pinimg.com/736x/47/e3/73/47e3735919718096b3ae4886486b65c0.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img47 {
+    @extend .img1;
+    background-image: url(https://es.web.img2.acsta.net/pictures/19/11/22/09/33/5060052.jpg);
+
+}
+
+.img48 {
+    @extend .img2;
+    background-image: url(https://es.web.img2.acsta.net/pictures/19/11/22/09/33/5060052.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img49 {
+    @extend .img1;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arcane-league-of-legends-1636541499.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*);
+
+}
+
+.img50 {
+    @extend .img2;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arcane-league-of-legends-1636541499.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img51 {
+    @extend .img1;
+    background-image: url(https://vader.news/__export/1645158960784/sites/gadgets/img/2022/02/18/chicago_fire.jpg_454298787.jpg);
+
+}
+
+.img52 {
+    @extend .img2;
+    background-image: url(https://vader.news/__export/1645158960784/sites/gadgets/img/2022/02/18/chicago_fire.jpg_454298787.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img53 {
+    @extend .img1;
+    background-image: url(https://www.rockandpop.cl/wp-content/uploads/2021/06/the-boys-1.jpg);
+
+}
+
+.img54 {
+    @extend .img2;
+    background-image: url(https://www.rockandpop.cl/wp-content/uploads/2021/06/the-boys-1.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img55 {
+    @extend .img1;
+    background-image: url(https://imagenes.atresplayer.com/atp/clipping/cmsimages01/2021/07/14/40AE02FE-438B-4235-A7CB-50ADFE78F16D/1280x720.jpg);
+
+}
+
+.img56 {
+    @extend .img2;
+    background-image: url(https://imagenes.atresplayer.com/atp/clipping/cmsimages01/2021/07/14/40AE02FE-438B-4235-A7CB-50ADFE78F16D/1280x720.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img57 {
+    @extend .img1;
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2020/12/The-Office-US-regresara-a-Netflix-Reino-Unido-en-enero.png);
+
+}
+
+.img58 {
+    @extend .img2;
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2020/12/The-Office-US-regresara-a-Netflix-Reino-Unido-en-enero.png);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img59 {
+    @extend .img1;
+    background-image: url(https://mx.web.img3.acsta.net/pictures/20/07/16/10/21/4967802.jpg);
+
+}
+
+.img60 {
+    @extend .img2;
+    background-image: url(https://mx.web.img3.acsta.net/pictures/20/07/16/10/21/4967802.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img61 {
+    @extend .img1;
+    background-image: url(https://www.justwatch.com/images/poster/157730799/s332/temporada-9);
+
+}
+
+.img62 {
+    @extend .img2;
+    background-image: url(https://www.justwatch.com/images/poster/157730799/s332/temporada-9);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img63 {
+    @extend .img1;
+    background-image: url(https://www.cronista.com/files/image/296/296848/5ffe0ba7042ee.jpg);
+
+}
+
+.img64 {
+    @extend .img2;
+    background-image: url(https://www.cronista.com/files/image/296/296848/5ffe0ba7042ee.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img65 {
+    @extend .img1;
+    background-image: url(https://static01.nyt.com/images/2019/02/24/arts/24better-things1/24better-things1-superJumbo.jpg);
+
+}
+
+.img66 {
+    @extend .img2;
+    background-image: url(https://static01.nyt.com/images/2019/02/24/arts/24better-things1/24better-things1-superJumbo.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img67 {
+    @extend .img1;
+    background-image: url(https://media.a24.com/p/6dca0e897b291c83999d6d21d82bc857/adjuntos/296/imagenes/008/737/0008737947/1200x675/smart/netflix-master-of-nonepng.png);
+
+}
+
+.img68 {
+    @extend .img2;
+    background-image: url(https://media.a24.com/p/6dca0e897b291c83999d6d21d82bc857/adjuntos/296/imagenes/008/737/0008737947/1200x675/smart/netflix-master-of-nonepng.png);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img69 {
+    @extend .img1;
+    background-image: url(https://www.justwatch.com/images/backdrop/255400411/s640/temporada-5);
+
+}
+
+.img70 {
+    @extend .img2;
+    background-image: url(https://www.justwatch.com/images/backdrop/255400411/s640/temporada-5);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img71 {
+    @extend .img1;
+    background-image: url(https://es.web.img3.acsta.net/r_654_368/newsv7/21/06/21/15/47/1561615.jpg);
+
+}
+
+.img72 {
+    @extend .img2;
+    background-image: url(https://es.web.img3.acsta.net/r_654_368/newsv7/21/06/21/15/47/1561615.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img73 {
+    @extend .img1;
+    background-image: url(https://images.justwatch.com/poster/243673095/s332/temporada-4);
+
+}
+
+.img74 {
+    @extend .img2;
+    background-image: url(https://images.justwatch.com/poster/243673095/s332/temporada-4);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img75 {
+    @extend .img1;
+    background-image: url(https://pics.filmaffinity.com/Black_Mirror_Serie_de_TV-872421892-mmed.jpg);
+
+}
+
+.img76 {
+    @extend .img2;
+    background-image: url(https://pics.filmaffinity.com/Black_Mirror_Serie_de_TV-872421892-mmed.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img77 {
+    @extend .img1;
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2019/04/hipertextual-segunda-temporada-dark-netflix-tiene-fecha-estreno-2019490221.jpg?fit=1200%2C899&quality=50&strip=all&ssl=1);
+
+}
+
+.img78 {
+    @extend .img2;
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2019/04/hipertextual-segunda-temporada-dark-netflix-tiene-fecha-estreno-2019490221.jpg?fit=1200%2C899&quality=50&strip=all&ssl=1);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img79 {
+    @extend .img1;
+    background-image: url(https://estaticos-cdn.elperiodico.com/clip/a11c7212-8c53-49ea-b8b1-ed6d184ec453_alta-libre-aspect-ratio_default_0.jpg);
+
+}
+
+.img80 {
+    @extend .img2;
+    background-image: url(https://estaticos-cdn.elperiodico.com/clip/a11c7212-8c53-49ea-b8b1-ed6d184ec453_alta-libre-aspect-ratio_default_0.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img81 {
+    @extend .img1;
+    background-image: url(https://intouch.news/wp-content/uploads/2021/12/The-Expanse-Temporada-7-%C2%BFRenovada-o-cancelada-Blz4vsLVx-1.jpg);
+
+}
+
+.img82 {
+    @extend .img2;
+    background-image: url(https://intouch.news/wp-content/uploads/2021/12/The-Expanse-Temporada-7-%C2%BFRenovada-o-cancelada-Blz4vsLVx-1.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
+
+.img83 {
+    @extend .img1;
+    background-image: url(https://larepublica.pe/resizer/3LG2UbaKupCjiXrlxUjugEqTpe0=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/2E7XDJUFFZDEJEKLTKLHTGEPKU.jpg);
+
+}
+
+.img84 {
+    @extend .img2;
+    background-image: url(https://larepublica.pe/resizer/3LG2UbaKupCjiXrlxUjugEqTpe0=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/2E7XDJUFFZDEJEKLTKLHTGEPKU.jpg);
+
+}
+
+.card:hover .img3 {
+    transform: rotate(10deg) scale(1.3) translate(20px, 0);
+    transform-origin: 300px 300px;
+    opacity: 0.5;
+}
+
+.card:hover .img4 {
+    transform: rotate(90deg) translate(0px, 150px);
+    transform-origin: -20px 200px;
+}
